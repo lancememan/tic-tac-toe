@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/styles.css">
+    <script src="./js/main.js" defer></script>
+</head>
+<body>
+    <div class="flex">
+        <div class="col">
+            <form>
+                <div class="flex">
+                    <div class="input-field">
+                        <input type="text" name="player1" id="player1" placeholder="Player 1">
+                    </div>
+                    <div class="input-field">
+                        <input type="text" name="player2" id="player2" placeholder="Player 2">
+                    </div>
+                </div>
+                <div class="input-field text-center">
+                    <input type="submit" value="Start/Reset"></button>
+                </div>            
+            </form>
+        </div>
+        <div class="col">
+            <h1 class="text-center">Tic-Tac-Toe</h1>
+            <div id="board"></div>
+        </div>
+        <div class="col">
+            <h1>Current Turn: </h1>
+            <h1>Marker: </h1>
+        </div>
+    </div>
+</body>
+</html>
