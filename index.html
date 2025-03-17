@@ -10,13 +10,13 @@
 <body>
     <div class="flex">
         <div class="col">
-            <form>
+            <form id="playerform">
                 <div class="flex">
                     <div class="input-field">
-                        <input type="text" name="player1" id="player1" placeholder="Player 1">
+                        <input type="text" name="player1" id="player1" placeholder="Player 1" required>
                     </div>
                     <div class="input-field">
-                        <input type="text" name="player2" id="player2" placeholder="Player 2">
+                        <input type="text" name="player2" id="player2" placeholder="Player 2" required>
                     </div>
                 </div>
                 <div class="input-field text-center">
@@ -27,10 +27,11 @@
         <div class="col">
             <h1 class="text-center">Tic-Tac-Toe</h1>
             <div id="board"></div>
+            <div id="winner"></div>
         </div>
         <div class="col">
-            <h1>Current Turn: </h1>
-            <h1>Marker: </h1>
+            <h1 id="currentPlayer">Current Turn:</h1>
+            <h1 id="PlayerMarker">Marker: </h1>
         </div>
     </div>
 </body>
